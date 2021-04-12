@@ -4,3 +4,5 @@ myBrowsingHistory.o :
 	g++ -c myBrowsingHistory.cpp
 clean :
 	rm -f core myBrowsingHistory myBrowsingHistory.o
+run :
+	./myBrowsingHistory
